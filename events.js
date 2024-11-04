@@ -18,3 +18,22 @@ const makeBlueButton = document.getElementById('make-blue');
         makeSkyBlue.onclick = function makeskyblue(){
             document.body.style.backgroundColor= 'skyblue';
         }
+
+        // Option four 
+        const pinkButton = document.getElementById('make-pink');
+     pinkButton.addEventListener('click', makePink);
+
+     function makePink(){
+        document.body.style.backgroundColor='pink';
+     }
+    //  option four another 
+    const makeGreenButton = document.getElementById('make-green');
+    makeGreenButton.addEventListener('click', function makeGreen(){
+        document.body.style.backgroundColor='green';
+    }) 
+
+    // option four final 
+    // important : we will use this sometimes 
+    document.getElementById('make-orange').addEventListener('click', function(){
+        document.body.style.backgroundColor= 'orange';
+    }); 
