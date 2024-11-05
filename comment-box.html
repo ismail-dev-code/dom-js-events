@@ -19,7 +19,7 @@
         <button id="btn-post">Post</button>
     </div>
     <script>
-        // step-1: add event listener to post button 
+     // step-1: add event listener to post button 
         document.getElementById('btn-post').addEventListener('click', function(){
      // step-2: get the comment inside the text area 
             const commentBox = document.getElementById('new-comment');
@@ -34,7 +34,7 @@
             p.innerText = newComment;
             commentContainer.appendChild(p);
 
-            // step-4 clear the text area 
+      // step-4 clear the text area 
             commentBox.value='';
         })
     </script>
